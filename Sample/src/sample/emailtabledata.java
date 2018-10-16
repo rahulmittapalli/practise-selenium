@@ -12,7 +12,7 @@ public class emailtabledata {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		//System.setProperty("webdriver.chrome.driver", "/Users/mobigesture/Documents/Chetan/Automation_Softwares/chromedriver");
+		//System.setProperty("webdriver.chrome.driver", "/Users/gmail/Documents/Chetan/Automation_Softwares/chromedriver");
 		//WebDriver obj=new ChromeDriver();
 		WebDriver obj=new SafariDriver();
 		obj.get("https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin");

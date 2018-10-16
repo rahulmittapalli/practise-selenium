@@ -14,8 +14,8 @@ public class cal {
 		WebDriver driver =new ChromeDriver();
 		driver.get("http://192.168.1.78:8080");
 		Thread.sleep(2000);
-		driver.findElement(By.name("username")).sendKeys("test@mobigesture.com");
-		driver.findElement(By.name("password")).sendKeys("12345678");
+		driver.findElement(By.name("username")).sendKeys("test@gmail.com");
+		driver.findElement(By.name("password")).sendKeys("gmail");
 		driver.findElement(By.xpath("//*[@id=\"app\"]/div/div/form/button")).click();
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//*[@id=\"app\"]/div/div/div[1]/ul[3]/li/a")).click();

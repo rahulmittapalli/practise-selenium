@@ -16,7 +16,7 @@ public class skutil {
 		WebDriver driver=new SafariDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.gmail.com");
-		driver.findElement(By.name("identifier")).sendKeys("mittapalli.rahul");
+		driver.findElement(By.name("identifier")).sendKeys("gmail");
 		driver.findElement(By.id("identifierNext")).click();
 		Thread.sleep(10000);
 		driver.findElement(By.name("password")).sendKeys("naveenrahul");

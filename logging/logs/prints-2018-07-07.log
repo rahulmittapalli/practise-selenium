@@ -1,0 +1,10 @@
+16:53:55.140 [main] DEBUG alpha.general - I am debugging
+16:53:55.143 [main] INFO  alpha.general - information
+16:53:55.143 [main] ERROR alpha.general - Error 
+16:53:55.143 [main] FATAL alpha.general - Fatal
+16:58:36.512 [main] DEBUG alpha.general - I am debugging
+16:58:36.518 [main] INFO  alpha.general - information
+16:58:36.519 [main] ERROR alpha.general - Error 
+16:58:36.519 [main] FATAL alpha.general - Fatal
+17:05:52.591 [main] DEBUG alpha.general - I am debugging
+17:05:52.595 [main] INFO  alpha.general - information

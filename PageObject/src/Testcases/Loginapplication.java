@@ -15,7 +15,7 @@ public class Loginapplication {
 	driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
 	loginpage rd=new loginpage(driver);
 	rd.Emailid().sendKeys("hello");
-	rd.Password().sendKeys("12345678");
+	rd.Password().sendKeys("gmail");
 	//rd.submit().click();
 	rd.home().click();
 	Rediffhomepage rh=new Rediffhomepage(driver);

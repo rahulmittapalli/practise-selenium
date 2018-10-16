@@ -11,7 +11,7 @@ public class development {
 		WebDriver driver =new SafariDriver();
 		driver.get("http://139.59.3.114/#!/signup");
 		Thread.sleep(3000);
-		driver.findElement(By.xpath("//*[@id=\"signup\"]/div/div[1]/div[1]/form/div/div[1]/input")).sendKeys("hello@mobigesture.com");
+		driver.findElement(By.xpath("//*[@id=\"signup\"]/div/div[1]/div[1]/form/div/div[1]/input")).sendKeys("hello@gmail.com");
 	}
 
 }

@@ -13,9 +13,9 @@ public void login() throws InterruptedException
 {
 	WebDriver driver=new SafariDriver();
 	driver.manage().window().maximize();
-	driver.get("https://mobigesture.com:2096/");
+	driver.get("https://gmail.com:2096/");
 	homepage hp=new homepage(driver);
-	hp.Emailid().sendKeys("rahul.mittapalli@Mobigesture.com");
+	hp.Emailid().sendKeys("rahul.mittapalli@gmail.com");
 	hp.pass().sendKeys("Rahul123");
 	hp.submit1().click();
 	Thread.sleep(5000);

@@ -22,8 +22,8 @@ public class Addproduct {
 		String searchKey = "category";
 		String products = "precleanse";
 		String checkboxs = "shortdescription";
-		driver.findElement(By.xpath("//*[@type='text']")).sendKeys("mittapalli.rahul@gmail.com");
-		driver.findElement(By.xpath("//*[@type='password']")).sendKeys("12345678");
+		driver.findElement(By.xpath("//*[@type='text']")).sendKeys("gmail@gmail.com");
+		driver.findElement(By.xpath("//*[@type='password']")).sendKeys("gmail");
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 		Thread.sleep(5000);
 		driver.findElement(By.xpath("//button[contains(text(),'Add New')]")).click();

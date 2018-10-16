@@ -23,8 +23,8 @@ public class reviewsD {
 		driver.manage().window().maximize();
 		driver.get("https://dev-pim.dermalogica.com");
 		Thread.sleep(2000);
-		driver.findElement(By.xpath("//*[@type='text']")).sendKeys("mittapalli.rahul@gmail.com");
-		driver.findElement(By.xpath("//*[@type='password']")).sendKeys("12345678");
+		driver.findElement(By.xpath("//*[@type='text']")).sendKeys("gmail@gmail.com");
+		driver.findElement(By.xpath("//*[@type='password']")).sendKeys("gmail");
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 		Thread.sleep(5000);
 		driver.findElement(By.xpath("//*[@id=\"sidebar\"]/ul/li[2]/a/svg[1]")).click();

@@ -15,7 +15,7 @@ public class LoginapplicationPF {
 	driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
 	loginpagePF rd=new loginpagePF(driver);
 	rd.Emailid().sendKeys("hello");
-	rd.Password().sendKeys("12345678");
+	rd.Password().sendKeys("gmail");
 	//rd.submit().click();
 	rd.home().click();
 	Pagefactorylogin rh=new Pagefactorylogin(driver);

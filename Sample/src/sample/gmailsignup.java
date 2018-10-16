@@ -21,9 +21,9 @@ public class gmailsignup {
 		Thread.sleep(2000);
 		driver.findElement(By.id("username")).sendKeys("malara1234.ara");
 		Thread.sleep(2000);
-		driver.findElement(By.name("Passwd")).sendKeys("M12345678$");
+		driver.findElement(By.name("Passwd")).sendKeys("Mgmail$");
 		Thread.sleep(2000);
-		driver.findElement(By.name("ConfirmPasswd")).sendKeys("M12345678$");
+		driver.findElement(By.name("ConfirmPasswd")).sendKeys("Mgmail$");
 		Thread.sleep(2000);
 		driver.findElement(By.className("WBCose")).click();
 		Thread.sleep(2000);

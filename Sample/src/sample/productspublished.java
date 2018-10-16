@@ -23,8 +23,8 @@ public class productspublished {
 		driver.manage().window().maximize();
 		driver.get("https://pim.dermalogica.com");
 		Thread.sleep(2000);
-		driver.findElement(By.xpath("//*[@type='text']")).sendKeys("test@mobigesture.com");
-		driver.findElement(By.xpath("//*[@type='password']")).sendKeys("12345678");
+		driver.findElement(By.xpath("//*[@type='text']")).sendKeys("test@gmail.com");
+		driver.findElement(By.xpath("//*[@type='password']")).sendKeys("gmail");
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 		Thread.sleep(5000);
 		Select s = new Select(driver.findElement(

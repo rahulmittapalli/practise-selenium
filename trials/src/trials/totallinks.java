@@ -10,7 +10,7 @@ public class totallinks {
 		// TODO Auto-generated method stub
 
 		WebDriver driver=new SafariDriver();
-		driver.get("https://www.mobigesture.com");
+		driver.get("https://www.gmail.com");
 		String URL=driver.getCurrentUrl();
 		int size=driver.findElements(By.tagName("a")).size();
 		System.out.println("URL is "+URL);

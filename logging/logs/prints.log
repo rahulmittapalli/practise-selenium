@@ -1,0 +1,8 @@
+17:05:52.595 [main] ERROR alpha.general - Error 
+17:05:52.600 [main] FATAL alpha.general - Fatal
+17:06:28.783 [main] ERROR alpha.general - Error 
+17:06:28.786 [main] FATAL alpha.general - Fatal
+17:06:41.971 [main] DEBUG alpha.general - I am debugging
+17:06:41.975 [main] INFO  alpha.general - information
+17:06:41.975 [main] ERROR alpha.general - Error 
+17:06:41.975 [main] FATAL alpha.general - Fatal

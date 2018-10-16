@@ -13,7 +13,7 @@ public class login {
 		driver.get("https://dev-pim.dermalogica.com");
 		Thread.sleep(3000);
 		String s="Invalid user/password";
-		driver.findElement(By.xpath("//*[@id=\"Loginscss\"]/div[1]/form/div[1]/input")).sendKeys("test@mobigesture.com");
+		driver.findElement(By.xpath("//*[@id=\"Loginscss\"]/div[1]/form/div[1]/input")).sendKeys("test@gmail.com");
 		driver.findElement(By.xpath("//*[@id=\"Loginscss\"]/div[1]/form/div[2]/input")).sendKeys("123");
 		driver.findElement(By.xpath("//*[@id=\"Loginscss\"]/div[1]/form/div[3]/button")).click();
 		Thread.sleep(8000);

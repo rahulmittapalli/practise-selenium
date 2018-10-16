@@ -17,8 +17,8 @@ public class clientdelete {
 		driver.manage().window().maximize();
 		driver.get("https://trade-dev.facemapping.com/");
 		Thread.sleep(3000);
-		driver.findElement(By.id("email")).sendKeys("mittapalli.rahul@gmail.com");
-		driver.findElement(By.id("passwd")).sendKeys("12345678");
+		driver.findElement(By.id("email")).sendKeys("gmail@gmail.com");
+		driver.findElement(By.id("passwd")).sendKeys("gmail");
 		driver.findElement(By.xpath("//*[@type='submit']")).click();
 		Thread.sleep(5000);
 		System.out.println(driver.findElement(By.xpath("//*[@placeholder='Select or Search client']")).isDisplayed());
