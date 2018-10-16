@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy element &apos;validate.java&apos; to &apos;ABCproject/src/test/java/Academy&apos;&#x0A;- Original project: &apos;ABCproject&apos;&#x0A;- Destination element: &apos;ABCproject/src/test/java/Academy&apos;&#x0A;- Original element: &apos;Academy.validate.java&apos;" description="Copy compilation unit" destination="/src\/test\/java&lt;Academy" element1="/src\/test\/java&lt;Academy{validate.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1516522419887" units="1" version="1.0"/>
-</session>

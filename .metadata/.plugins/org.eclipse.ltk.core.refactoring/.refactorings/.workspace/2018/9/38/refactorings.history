@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;PIM&apos;" deleteContents="false" description="Delete resource &apos;PIM&apos;" element1="/PIM" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1537271535346"/>
-</session>

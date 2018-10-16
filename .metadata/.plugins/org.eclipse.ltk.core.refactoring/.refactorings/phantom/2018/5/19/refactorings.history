@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy package &apos;phantom&apos; to &apos;mavenjava/src/main/java&apos;&#x0A;- Original project: &apos;phantom&apos;&#x0A;- Destination element: &apos;mavenjava/src/main/java&apos;&#x0A;- Original element: &apos;phantom/src/phantom&apos;" description="Copy package" destination="=mavenjava/src\/main\/java" element1="/src&lt;phantom" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1525852036305" version="1.0"/>
-</session>

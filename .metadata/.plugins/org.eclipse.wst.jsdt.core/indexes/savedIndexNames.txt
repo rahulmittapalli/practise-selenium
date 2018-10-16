@@ -1,1 +1,0 @@
-INDEX VERSION 1.4+/Users/rahulmittapalli/Documents/workspace123/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes

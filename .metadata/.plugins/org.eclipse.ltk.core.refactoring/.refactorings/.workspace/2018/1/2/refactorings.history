@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;log4j&apos;" deleteContents="false" description="Delete resource &apos;log4j&apos;" element1="/log4j" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1515405332426"/>
-</session>
