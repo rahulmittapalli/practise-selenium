@@ -1,0 +1,31 @@
+package sample;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.safari.SafariDriver;
+
+public class tabledata {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		WebDriver driver =new SafariDriver();
+		driver.get("http://www.cricbuzz.com/live-cricket-scorecard/19345/wi-vs-sl-1st-test-sri-lanka-tour-of-west-indies-2018");
+		//WebElement table=driver.findElement(By.cssSelector("cb-col cb-col-100 cb-ltst-wgt-hdr"));
+		WebElement row=driver.findElement(By.id(":3g"));
+		List column=row.findElements(By.tagName("tbody"));
+		String s=((WebElement) column.get(2)).getText();
+		String p="";
+		if(s.equals(p))
+		{
+			System.out.println("Hello");
+			((WebElement) column.get(2)).click();
+			break;
+		}
+
+		
+	}
+
+}

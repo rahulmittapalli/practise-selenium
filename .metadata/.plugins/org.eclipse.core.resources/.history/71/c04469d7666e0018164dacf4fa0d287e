@@ -1,0 +1,11 @@
+package sample;
+
+public class split {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s="helloworld,error message";
+s.endsWith(,);		System.out.println(s);
+	}
+
+}

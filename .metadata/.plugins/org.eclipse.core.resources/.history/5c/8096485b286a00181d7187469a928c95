@@ -1,0 +1,32 @@
+package sample;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.safari.SafariDriver;
+
+public class Bnb {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		WebDriver driver= new SafariDriver();
+		driver.manage().window().maximize();
+		driver.get("https://dev.ddicloudqb.com/");
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//*[@type='text']")).sendKeys("hemakumar");
+		driver.findElement(By.xpath("//*[@type='password']")).sendKeys("OHm9ymQG");
+		driver.findElement(By.xpath("//*[@type='submit']")).click();
+		//Thread.sleep(4000);
+		Actions a =new Actions(driver);
+		//driver.findElement(By.xpath("//*[@id="borderLayout_eGridPanel"]/div[1]/div/div[4]/div[3]/div/div/div/div[4]")).click();
+		a.moveToElement(driver.findElement(By.xpath("//*[@id=\"borderLayout_eGridPanel\"]/div[1]/div/div[4]/div[3]/div/div/div[1]/div[2]"))).doubleClick();
+//		System.out.println(s);
+//		if(s.equals(2))
+//		{
+//			driver.findElement(By.xpath("//*[@id=\"borderLayout_eGridPanel\"]/div[1]/div/div[4]/div[3]/div/div/div[1]/div[7]")).click();
+//		}
+//		
+		//driver.close();
+	}
+
+}

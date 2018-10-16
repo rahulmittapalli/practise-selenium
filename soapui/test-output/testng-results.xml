@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-08-21T17:39:18Z" name="Default suite" finished-at="2018-08-21T17:39:31Z" duration-ms="13601">
+    <groups>
+    </groups>
+    <test started-at="2018-08-21T17:39:18Z" name="Default test" finished-at="2018-08-21T17:39:31Z" duration-ms="13601">
+      <class name="soapui.Another">
+        <test-method signature="soaptest()[pri:0, instance:soapui.Another@60099951]" started-at="2018-08-21T23:09:18Z" name="soaptest" finished-at="2018-08-21T23:09:31Z" duration-ms="13566" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected: com.eviware.soapui.model.iface.Submit$Status<FINISHED> but was: com.eviware.soapui.model.testsuite.TestRunner$Status<FINISHED>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected: com.eviware.soapui.model.iface.Submit$Status<FINISHED> but was: com.eviware.soapui.model.testsuite.TestRunner$Status<FINISHED>at org.junit.Assert.fail(Assert.java:88)at org.junit.Assert.failNotEquals(Assert.java:743)at org.junit.Assert.assertEquals(Assert.java:118)at org.junit.Assert.assertEquals(Assert.java:144)at soapui.Another.soaptest(Another.java:30)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:564)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- soaptest -->
+      </class> <!-- soapui.Another -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

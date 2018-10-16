@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-workspace name="Projects" soapui-version="5.4.0" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings/>
+  <con:project name="calculator">/Users/rahulmittapalli/calculator-soapui-project.xml</con:project>
+  <con:project name="Sample">/Users/rahulmittapalli/Sample-soapui-project.xml</con:project>
+  <con:project name="NEW Project">/Users/rahulmittapalli/NEW-Proejct-soapui-project.xml</con:project>
+  <con:project name="Automation">/Users/rahulmittapalli/Automation-soapui-project.xml</con:project>
+  <con:project name="REST GOOGLEAPI">/Users/rahulmittapalli/REST-GOOGLEAPI-soapui-project.xml</con:project>
+  <con:project name="Products">/Users/rahulmittapalli/Products-soapui-project.xml</con:project>
+  <con:project name="Google">/Users/rahulmittapalli/Google-soapui-project.xml</con:project>
+  <con:project name="Google XML">/Users/rahulmittapalli/Google-XML-soapui-project.xml</con:project>
+  <con:project name="Flickr">/Users/rahulmittapalli/Downloads/Flickr-soapui-project.xml</con:project>
+  <con:collectInfoForSupport>false</con:collectInfoForSupport>
+</con:soapui-workspace>

@@ -1,0 +1,10 @@
+16:23:36.332 [main] INFO  alpha1.Demo - I am info
+16:23:36.339 [main] FATAL alpha1.Demo - I am fatal
+16:24:10.653 [main] DEBUG alpha1.Demo - I am debugger
+16:24:10.658 [main] ERROR alpha1.Demo - I am error
+16:24:10.659 [main] INFO  alpha1.Demo - I am info
+16:24:10.659 [main] FATAL alpha1.Demo - I am fatal
+16:27:27.589 [main] DEBUG beta.Demo2 - I am debugger
+16:27:27.595 [main] ERROR beta.Demo2 - I am error
+16:27:27.595 [main] INFO  beta.Demo2 - I am info
+16:27:27.595 [main] FATAL beta.Demo2 - I am fatal

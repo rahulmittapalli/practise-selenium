@@ -1,0 +1,53 @@
+package sample;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.safari.SafariDriver;
+
+public class tabledata {
+
+	public static void main(String[] args) throws InterruptedException {
+		WebDriver driver=new SafariDriver();
+		driver.get("https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin");
+		Thread.sleep(5000);
+		driver.findElement(By.name("identifier")).sendKeys("rahulmittapalli89");
+		driver.findElement(By.id("identifierNext")).click();
+		Thread.sleep(10000);
+		driver.findElement(By.name("password")).sendKeys("sumanthrahul");
+		driver.findElement(By.id("passwordNext")).click();
+		Thread.sleep(15000);
+		WebElement table = driver.findElement(By.id(":34"));
+		List<WebElement> rows= table.findElements(By.tagName("tr"));
+		String email = "Freelancer.com";
+		//System.out.println("Hello");
+		for (WebElement rowelement:rows)
+		{
+			List<WebElement> colums= rowelement.findElements(By.tagName("td"));
+//			String[]p=colums.get(4).getText().split(",");
+//			if(p[0].equals("unread"))
+//			{
+//				System.out.println(p[1]);
+//			}
+//			else
+//			{
+//				System.out.println(p[0]);
+//			}
+			
+			for(int i=0;i<8000;i++)
+			{
+			if(driver.findElement(By.xpath("//img[@class='amJ T-I-J3']")).isDisplayed());
+			{
+				driver.findElement(By.xpath("//img[@class='amJ T-I-J3']")).click();
+				++i;
+				System.out.println(i);
+			}
+			}
+			}
+
+	}
+
+	}

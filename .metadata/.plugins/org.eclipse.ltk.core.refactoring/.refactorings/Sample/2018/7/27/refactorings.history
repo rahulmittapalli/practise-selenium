@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;sample.tabledata1&apos; to &apos;PIMproducts&apos;&#x0A;- Original project: &apos;Sample&apos;&#x0A;- Original element: &apos;sample.tabledata1&apos;&#x0A;- Renamed element: &apos;sample.PIMproducts&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;tabledata1&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;sample{tabledata1.java[tabledata1" matchStrategy="1" name="PIMproducts" qualified="false" references="true" similarDeclarations="false" stamp="1530781325538" textual="false" version="1.0"/>
+</session>

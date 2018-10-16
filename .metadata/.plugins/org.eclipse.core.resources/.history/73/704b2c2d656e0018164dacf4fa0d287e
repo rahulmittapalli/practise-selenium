@@ -1,0 +1,13 @@
+package sample;
+
+public class split {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s="hello world";
+		String str = "Hello I'm your String";
+		String[] splited = str.split("\\s+");
+		System.out.println(s);
+	}
+
+}

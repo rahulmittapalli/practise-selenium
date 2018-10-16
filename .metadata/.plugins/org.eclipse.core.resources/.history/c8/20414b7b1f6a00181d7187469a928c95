@@ -1,0 +1,25 @@
+package sample;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.safari.SafariDriver;
+
+public class Bnb {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		WebDriver driver= new SafariDriver();
+		driver.manage().window().maximize();
+		driver.get("https://dev.ddicloudqb.com/");
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//*[@type='text']")).sendKeys("hemakumar");
+		driver.findElement(By.xpath("//*[@type='password']")).sendKeys("OHm9ymQG");
+		driver.findElement(By.xpath("//*[@type='password']")).click();
+		
+		Thread.sleep(2000);
+		driver.close();
+		
+
+	}
+
+}

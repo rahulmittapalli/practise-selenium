@@ -1,0 +1,30 @@
+package Add;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class dropdown {
+
+	public void dropdownvalue(WebDriver driver,String classname,String listvalue, String value) throws InterruptedException {
+		WebElement attribute = driver.findElement(By.className(classname));
+		Thread.sleep(4000);
+		List<WebElement> drop = attribute.findElements(By.tagName(listvalue));
+		for (int k = 0; k < drop.size(); k++) {
+			System.out.println("Inside the dropdown");
+			System.out.println(drop.get(k).getText());
+			if (drop.get(k).getText().equals(value)) {
+				drop.get(k).click();
+				Thread.sleep(5000);
+				// driver.findElement(By.xpath(xpathExpression))
+				// WebElement find=driver.findElement(By.className("searchable"));
+				// WebElement parent = find.findElement(By.xpath(".."));
+				// System.out.println("parent "+parent);
+				break;
+			}
+
+		}
+	}
+}

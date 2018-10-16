@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;log4j2.xml&apos; to &apos;resources.base.java&apos;&#x0A;- Original project: &apos;log4jtutorial&apos;&#x0A;- Destination element: &apos;resources.base.java&apos;&#x0A;- Original element: &apos;log4j2.xml&apos;" description="Copy file" destination="=Project123/src\/main\/java&lt;resources{base.java" element1="resource/log4j2.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1516554199590" units="0" version="1.0"/>
+</session>

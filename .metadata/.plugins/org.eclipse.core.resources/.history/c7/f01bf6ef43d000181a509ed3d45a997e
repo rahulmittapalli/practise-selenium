@@ -1,0 +1,8 @@
+package Add;
+
+public class viewfunction {
+
+	public void view() {
+		System.out.println("clicked on the view button");
+	}
+}

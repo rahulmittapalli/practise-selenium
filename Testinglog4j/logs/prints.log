@@ -1,0 +1,8 @@
+14:08:35.427 [main] INFO  alpha.test1 - Hello this is Log file
+14:08:35.430 [main] DEBUG alpha.test1 - THis is debug file
+14:08:35.430 [main] ERROR alpha.test1 - THis is error file
+14:08:35.430 [main] FATAL alpha.test1 - THis is fatal error
+12:39:02.940 [main] INFO  alpha.test1 - Hello this is Log file
+12:39:02.959 [main] DEBUG alpha.test1 - THis is debug file
+12:39:02.959 [main] ERROR alpha.test1 - THis is error file
+12:39:02.960 [main] FATAL alpha.test1 - THis is fatal error

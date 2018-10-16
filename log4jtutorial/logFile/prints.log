@@ -1,0 +1,4 @@
+16:26:54.528 [main] DEBUG beta.Demo2 - I am debugger
+16:26:54.534 [main] ERROR beta.Demo2 - I am error
+16:26:54.534 [main] INFO  beta.Demo2 - I am info
+16:26:54.534 [main] FATAL beta.Demo2 - I am fatal
