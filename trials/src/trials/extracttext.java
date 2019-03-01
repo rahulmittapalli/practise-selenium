@@ -29,6 +29,7 @@ public class extracttext {
 //				.findElement(By.xpath("//*[@id='post-body-5614451749129773593']/div[1]/div[1]/div/a/img"))
 //				.getAttribute("src");
 //		URL url = new URL(imageUrl);
+//		Ocr.setUp(); // one time setup		
 //		Ocr ocr = new Ocr(); // create a new OCR engine
 //		ocr.startEngine("eng", Ocr.SPEED_FASTEST); // English
 //		String s = ocr.recognize(new URL[] { (url) }, Ocr.RECOGNIZE_TYPE_TEXT, Ocr.OUTPUT_FORMAT_PLAINTEXT);
